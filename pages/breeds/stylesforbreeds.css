@@ -1,0 +1,48 @@
+ body  {background-color :#FFE4B5;} 
+ .verhushka {
+	 height:400px; width:1200px;margin-left: auto; margin-right: auto;
+ }
+  .seredina { background-color:#9ACD32;height:140px;color:white; width:1080px; margin: 5% auto 5% auto   ;
+	  border: 8px double PapayaWhip;    
+	  text-align: center; font-family: serif; font-size: 250%;
+  }
+  .blockforinformation {
+	  
+	  background-color:#FFDAB9;
+         width: 1200px;
+		
+		 
+         margin: 0px auto;
+        font-family: serif;
+	  border: 8px double PapayaWhip;
+		display:block;
+		overflow:auto;
+        }
+	 h2,h3 {color:#008000;}
+	 img[border]{
+  color: #FFDAB9;
+	  
+  }
+  .blockforpicture {width:400px;
+	
+	 float:left;
+	 padding:40px;
+	 
+	  font-family: serif;
+	     
+  }
+
+	.blockmfortext {
+	
+	
+	width:700px;
+	 
+	 float:left;
+	 
+	 padding-top:20px;
+	  font-family: serif;
+	  font-size: 20px;
+	  
+	
+	}
+	

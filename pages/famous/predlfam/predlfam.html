@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+	  <link rel="stylesheet" type="text/css" href="../../breeds/stylesforbreeds.css">
+	    <link rel="stylesheet" type="text/css" href="../../../fonsforpages.css">
+		<link rel="icon" href="../../../favicat.ico" type="image/x-icon">
+	 <style>
+	 
+	
+	h2{color:white;}
+	.blockforforms{
+	background-color:#FFDAB9;
+	height:60px; 
+	display:block;
+		overflow:auto;
+	 margin-right:5px ;
+	 float:left;
+	 padding:5px;
+	
+	
+	}
+	
+	
+	
+
+	 </style>
+	<title>Предложить известного котика</title>
+	<script>
+	
+	
+/*function proverka() 
+{
+var username = document.rabbit.getElementById("breed");
+if (!username.value)
+{
+username.style.border= "2px solid red";
+return false;
+}
+return true;
+}*/
+
+        function btnClick()
+        {  
+		var username = document.getElementById("breed");
+if (!username.value)
+{
+
+username.style.border= "2px solid red";
+}else
+username.style.border= "1px solid gray";
+
+/*
+            var Txt1 = "";
+            var Txt2 = "";
+            Txt1 = document.rabbit.cat.value;
+            Txt2 = document.rabbit.cat.name;
+            document.getElementById('ex1').innerHTML="<HR>"+
+                "value: " + Txt1.bold() +
+                " name: "  + Txt2.bold() +"<HR>";
+			*/
+        }
+		function btn1Click()
+		{
+		var username = document.getElementById("breed");
+		username="!";
+		}
+     
+</script>
+
+	</head>
+	<body>
+	
+	<div class= "verhushka" style="background-image:url(fapr.jpg);">
+	</div>
+	<div class="seredina">
+	<p>  Предложить известного котика
+	</p>
+	</div>
+		<div class="blockforinformation"  >
+		<p style="padding: 0px 10px; font-size: 20px;"> Сайт находится в разработке - у многих известных котиков ещё нет собственных страниц.
+		Напишите имена котиков, у которых хотели бы увидеть собственную страницу.
+		<div class="blockforforms">
+<form name="rabbit" action="handlfam.php"  method="post" target="area" ><!--onsubmit="return proverka();"-->
+<input type="text" name="cat" id="breed" placeholder="Введите имя котика" required maxlength="100" size="30" style ="font-size: 24px;
+height: 24px;">
+<input type="submit" name="bt" id="btb" value="Отправить!" style ="font-size:22px;border:8px double PapayaWhip;background:#9ACD32;color:white;">
+</form>
+</div>
+<div class="blockforforms">
+<form name="spisok"  action="handlfam.php"  method="post" target="area" >
+<input type="submit" name="bt1" id="btb1" value="Посмотреть список!" style ="font-size:22px;border:8px double PapayaWhip;background:#9ACD32;
+color:white;">
+</form>
+</div>
+<div class="blockforforms" style=" width:600px; height:800px;">
+ <p><iframe name="area" width="500" height="710"   style="background:#9ACD32;border:8px double PapayaWhip;"></iframe></p> </div>
+<!--<div id="ex1"></div>-->
+		<div class="blockforforms" style="padding:20px; width:500px; height:720px;"> <img src="prfa.jpg" alt="картинка котика"> </div>
+		
+		
+		
+		
+		
+		
+		
+    
+	<a class="exit" href="../famous.html">
+	 <div class="blockexit" style= "margin-left:80%; margin-bottom: 3%;margin-right: 0%;" > <b> Вернуться к известным котикам </b> </div>
+	</a>
+	
+	
+		</div>
+		</div>
+<script>
+
+document.getElementById("btb").addEventListener("click",btnClick); 
+//document.getElementById("btb1").addEventListener("click",btn1Click);
+		
+</script>
+	</body>
+	</html>

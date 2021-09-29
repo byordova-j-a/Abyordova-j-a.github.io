@@ -1,0 +1,69 @@
+ body  {background-color :#FFE4B5;} 
+ .verhushka {
+	 height:400px; width:1200px;margin-left: auto; margin-right: auto;
+ }
+ .block {
+	background-color:#FFDAB9;
+	height:60px; 
+	width:150px;
+	 margin-right:10px ;
+	 float:left;
+	 padding:20px;
+	 text-align: center;
+	  font-family: serif;
+	  border: 8px double PapayaWhip;
+	
+	}
+	.blockfamous {
+		background-color:#FFDAB9;
+	height:80px; 
+	width:200px;
+	 margin-right:10px ;
+	 float:left;
+	 padding:20px;
+	 text-align: center;
+	  font-family: serif;
+	  border: 8px double PapayaWhip;
+		
+	}
+	.obyortka {
+         width: 1200px;
+         margin: 10px auto;
+         height: 300px;
+		
+        }
+	a.refer{
+		
+		display:block;
+	}
+	.block:hover {
+background:#9ACD32	;
+}	
+a { color:#008000;}
+
+ a:hover{
+ color:#FFFFFF;
+ }
+ .blockexit {
+	background-color:#9ACD32;
+	height:60px; 
+	width:150px;
+	 margin-right:10px ;
+	 float:left;
+	 padding:20px;
+	 text-align: center;
+	  font-family: serif;
+	  border: 8px double PapayaWhip;
+	
+	}
+	
+	
+	.blockexit:hover {
+background:#FFDAB9;
+}	
+a.exit { color:#FFFFFF;}
+
+ a.exit:hover{
+ color:#008000;
+ }
+ 
